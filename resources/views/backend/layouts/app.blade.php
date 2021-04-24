@@ -97,8 +97,92 @@
                     <li class="nav-header">Navigation</li>
                     <li>
                         <a href="javascript:;">  <i class="fa fa-th-large"></i> <span>Dashboard</span> </a>
-                      </li>
-                    <li class="nav-header">Products</li>
+                    </li>
+
+
+                    <li class="nav-header">Home Care</li>
+                    <li class="has-sub">
+                        <a href="javascript:;"> <b class="caret"></b> <i class="fa fa-list-ol"></i> <span>Home Care  </span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href=""> Services List<i class="fa fa-list text-theme"></i></a></li>
+                            <li><a href=""> Add Services <i class="fa fa-plus text-theme"></i></a></li>
+                            <li><a href=""> Category List<i class="fa fa-list text-theme"></i></a></li>
+                            <li><a href="">Add Category <i class="fa fa-plus text-theme"></i></a></li>
+                        </ul>
+                    </li>
+                    
+
+                    <li class="nav-header">Medical Tourism</li>
+                    <li class="has-sub">
+                        <a href="javascript:;"> <b class="caret"></b> <i class="fa fa-list-ol"></i> <span>Medical Tourism </span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href=""> Services List<i class="fa fa-list text-theme"></i></a></li>
+                            <li><a href=""> Add Services <i class="fa fa-plus text-theme"></i></a></li>
+                            <li><a href=""> Category List<i class="fa fa-list text-theme"></i></a></li>
+                            <li><a href="">Add Category <i class="fa fa-plus text-theme"></i></a></li>
+                        </ul>
+                    </li>
+                    
+
+                    <li class="nav-header">Tele Medicine</li>
+                    <li class="has-sub">
+                        <a href="javascript:;"> <b class="caret"></b> <i class="fa fa-list-ol"></i> <span>Tele Medicine
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href=""> Type List<i class="fa fa-list text-theme"></i></a></li>
+                            <li><a href=""> Add Type <i class="fa fa-plus text-theme"></i></a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-header">Organization</li>
+                    <li class="has-sub">
+                        <a href="javascript:;"> <b class="caret"></b> <i class="fa fa-list-ol"></i> <span>Organization
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href=""> Type List<i class="fa fa-list text-theme"></i></a></li>
+                            <li><a href=""> Add Type <i class="fa fa-plus text-theme"></i></a></li>
+                            <li><a href=""> Organization List<i class="fa fa-list text-theme"></i></a></li>
+                            <li><a href=""> Add Organization <i class="fa fa-plus text-theme"></i></a></li>
+                            <li><a href=""> Branch List<i class="fa fa-list text-theme"></i></a></li>
+                            <li><a href=""> Add Branch <i class="fa fa-plus text-theme"></i></a></li>
+                            <li><a href=""> Doctor Assign List<i class="fa fa-list text-theme"></i></a></li>
+                            <li><a href=""> Add Doctor Assign <i class="fa fa-plus text-theme"></i></a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="has-sub">
+                        <a href="javascript:;"> <b class="caret"></b> <i class="fa fa-list-ol"></i> <span>Area
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href=""> City List<i class="fa fa-list text-theme"></i></a></li>
+                            <li><a href=""> Add City <i class="fa fa-plus text-theme"></i></a></li>
+                            <li><a href=""> Capital List<i class="fa fa-list text-theme"></i></a></li>
+                            <li><a href="">Add Capital <i class="fa fa-plus text-theme"></i></a></li>
+                            <li><a href=""> Country List<i class="fa fa-list text-theme"></i></a></li>
+                            <li><a href="">Add Country <i class="fa fa-plus text-theme"></i></a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-header">Doctor</li>
+                    <li class="has-sub">
+                        <a href="javascript:;"> <b class="caret"></b> <i class="fa fa-list-ol"></i> <span>Doctor
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href=""> Doctor List<i class="fa fa-list text-theme"></i></a></li>
+                            <li><a href=""> Add Doctor <i class="fa fa-plus text-theme"></i></a></li>
+                            <li><a href=""> Specialty List<i class="fa fa-list text-theme"></i></a></li>
+                            <li><a href=""> Add Specialty <i class="fa fa-plus text-theme"></i></a></li>
+                            <li><a href=""> Schedule List<i class="fa fa-list text-theme"></i></a></li>
+                            <li><a href=""> Add Schedule <i class="fa fa-plus text-theme"></i></a></li>
+                        </ul>
+                    </li>
+                    
+
+
+
+                  {{--   <li class="nav-header">Products</li>
                     <li class="has-sub">
                         <a href="javascript:;"> <b class="caret"></b> <i class="fa fa-list-ol"></i> <span>Products Settings </span>
                         </a>
@@ -111,7 +195,7 @@
                             <li><a href="{{ route('letter.news.index') }}">Vendors<i class="fa fa-list text-theme"></i> </a></li>
                         </ul>
                     </li>
-                    
+                     --}}
                     
                     <li class="nav-header">Users</li>
                     <li class="has-sub">
