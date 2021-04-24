@@ -1,0 +1,89 @@
+.mobile-menu {
+    right: -300px;
+
+}
+
+.add-class {
+    right: 0px;
+}
+
+.mobile-btn i {
+    margin: 11px 0;
+}
+
+.mobile-btn {
+    float: left;
+}
+
+.menubar > ul > li {
+    float: right;
+}
+
+.menubar > ul > li > a {
+    direction: rtl;
+}
+
+.accordion-button::after {
+    margin-right: auto;
+}
+
+.custom.accordion-body ul li a {
+    margin-right: 40px;
+}
+
+.custom.accordion-body ul li a i {
+
+    transform: rotate(180deg);
+}
+
+.mobile-logo i {
+    float: left;
+}
+
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+    text-decoration: none;
+}
+
+#button {
+    right: inherit;
+    left: 30px !important;
+}
+
+.btn-custom i {
+    float: left;
+    margin-right: 5px;
+    padding-bottom: 3px;
+    transform: rotate(180deg);
+}
+
+.footer-div {
+
+    right: inherit;
+    left: -60px;
+
+}
+
+/*
+.choose-icon i {
+    margin-left: 10px;
+}
+*/
+
+.card-link a i {
+    transform: rotate(180deg);
+    margin-right: 5px;
+}
+
+.footer.dot-div {
+    text-align: right;
+}
+
+/*
+.quits-section-bg {
+    background-image: url(../images/quote/bg2.gif);
+}
+*/
+
