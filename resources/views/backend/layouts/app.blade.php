@@ -8,7 +8,7 @@
     <meta content="" name="description" />
     <meta content="" name="author" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
-    <link href="{{ asset('public/backend') }}/assets/css/default/app.min.css" rel="stylesheet" /> 
+    <link href="{{ asset('public/backend') }}/assets/css/default/app.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
@@ -27,12 +27,12 @@
     <div id="page-loader" class="fade show"> <span class="spinner"></span> </div>
     <div id="page-container" class="page-container fade page-sidebar-fixed page-header-fixed">
         <div id="header" class="header navbar-default">
-            <div class="navbar-header"> 
+            <div class="navbar-header">
                 <a href="{{ route('home') }}" class="navbar-brand"><span class="navbar-logo"></span> <b>Newspaper</b> Admin</a>
-                <button type="button" class="navbar-toggle" data-click="sidebar-toggled"> 
+                <button type="button" class="navbar-toggle" data-click="sidebar-toggled">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                    <span class="icon-bar"></span> 
+                    <span class="icon-bar"></span>
                 </button>
             </div>
             <ul class="navbar-nav navbar-right">
@@ -45,7 +45,7 @@
                     </form>
                 </li>
                  <li class="dropdown navbar-user">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                          @if(Auth::user()->image)
 
                                 <img src="{{ asset(Auth::user()->image) }}" alt="">
@@ -54,19 +54,19 @@
 
                                 <img src="{{ asset('public/manpowers/user.png') }}" alt="" />
                             @endif
-                        <span class="d-none d-md-inline">{{ Auth::user()->name }}</span> 
-                        <b class="caret"></b> 
+                        <span class="d-none d-md-inline">{{ Auth::user()->name }}</span>
+                        <b class="caret"></b>
                     </a>
-                    <div class="dropdown-menu dropdown-menu-right"> 
-                        <a href="{{ route('user.profile') }}" class="dropdown-item"><i class="fa fa-user"></i> Profile</a> 
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a href="{{ route('user.profile') }}" class="dropdown-item"><i class="fa fa-user"></i> Profile</a>
                         <a href="{{ route('user.setting') }}" class="dropdown-item"><i class="fa fa-cogs"></i> Setting</a>
-                        
+
 
                         <a class="dropdown-item" href="{{ route('logout') }}">
                             <i class="fa fa-sign-out"></i>  {{ __('Logout') }}
                         </a>
 
-                                   
+
                     </div>
                 </li>
             </ul>
@@ -77,8 +77,8 @@
                     <li class="nav-profile">
                         <a href="javascript:;">
                             <div class="cover with-shadow"></div>
-                            <div class="image"> 
-                            
+                            <div class="image">
+
                             @if(Auth::user()->image)
 
                                 <img src="{{ asset(Auth::user()->image) }}" alt="">
@@ -91,7 +91,7 @@
                             <div class="info"> {{ Auth::user()->name }} <small>Admistration</small> </div>
                         </a>
                     </li>
-                   
+
                 </ul>
                 <ul class="nav">
                     <li class="nav-header">Navigation</li>
@@ -111,7 +111,7 @@
                             <li><a href="">Add Category <i class="fa fa-plus text-theme"></i></a></li>
                         </ul>
                     </li>
-                    
+
 
                     <li class="nav-header">Medical Tourism</li>
                     <li class="has-sub">
@@ -124,7 +124,7 @@
                             <li><a href="">Add Category <i class="fa fa-plus text-theme"></i></a></li>
                         </ul>
                     </li>
-                    
+
 
                     <li class="nav-header">Tele Medicine</li>
                     <li class="has-sub">
@@ -135,7 +135,7 @@
                             <li><a href=""> Add Type <i class="fa fa-plus text-theme"></i></a></li>
                         </ul>
                     </li>
-                    
+
                     <li class="nav-header">Organization</li>
                     <li class="has-sub">
                         <a href="javascript:;"> <b class="caret"></b> <i class="fa fa-list-ol"></i> <span>Organization
@@ -151,7 +151,7 @@
                             <li><a href=""> Add Doctor Assign <i class="fa fa-plus text-theme"></i></a></li>
                         </ul>
                     </li>
-                    
+
                     <li class="has-sub">
                         <a href="javascript:;"> <b class="caret"></b> <i class="fa fa-list-ol"></i> <span>Area
                         </a>
@@ -164,7 +164,7 @@
                             <li><a href="">Add Country <i class="fa fa-plus text-theme"></i></a></li>
                         </ul>
                     </li>
-                    
+
                     <li class="nav-header">Doctor</li>
                     <li class="has-sub">
                         <a href="javascript:;"> <b class="caret"></b> <i class="fa fa-list-ol"></i> <span>Doctor
@@ -178,11 +178,11 @@
                             <li><a href=""> Add Schedule <i class="fa fa-plus text-theme"></i></a></li>
                         </ul>
                     </li>
-                    
 
 
 
-                  {{--   <li class="nav-header">Products</li>
+
+                    {{--   <li class="nav-header">Products</li>
                     <li class="has-sub">
                         <a href="javascript:;"> <b class="caret"></b> <i class="fa fa-list-ol"></i> <span>Products Settings </span>
                         </a>
@@ -195,8 +195,8 @@
                             <li><a href="{{ route('letter.news.index') }}">Vendors<i class="fa fa-list text-theme"></i> </a></li>
                         </ul>
                     </li>
-                     --}}
-                    
+                    --}}
+
                     <li class="nav-header">Users</li>
                     <li class="has-sub">
                         <a href="javascript:;"> <b class="caret"></b> <i class="fa fa-users"></i> <span>Users </span>
@@ -206,55 +206,54 @@
                             <li><a href="{{ route('user.index') }}">  Users list <i class="fa fa-list text-theme"></i> </a></li>
                         </ul>
                     </li>
-                       
-                  
-                    
+
+
                     <li class="nav-header">Settings</li>
-                    
+
                     <li class="has-sub">
                         <a href="javascript:;"> <b class="caret"></b> <i class="fa fa-cogs"></i> <span>Web Settings </span>
                         </a>
                         <ul class="sub-menu">
                             <li><a href="{{ route('social.index') }}">  Social Media <i class="fa fa-share"></i> </a></li>
                             <li><a href="{{ route('website.setting.index') }}">  Setting <i class="fa fa-cogs text-theme"></i> </a></li>
-                            
+
                         </ul>
                     </li>
-                    
-                    
-                
+
+
+
                     <li><a href="javascript:;" class="sidebar-minify-btn" data-click="sidebar-minify"><i class="fa fa-angle-double-left"></i></a></li>
                 </ul>
             </div>
         </div>
-        
-        
-         
-
-         @yield('content')
 
 
 
 
+        @yield('content')
 
-         
-   </div>
-        
-        
+
+
+
+
+
+    </div>
+
+
     <script src="{{ asset('public/backend') }}/assets/js/app.min.js" type="text/javascript"></script>
     <script src="{{ asset('public/backend') }}/assets/js/theme/default.min.js" type="text/javascript"></script>
-  
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
     <script src="{{asset('public/backend/assets/sweetalert/sweetalert2@9.js')}}"></script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
-     
+
     <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
- 
+
     <script src="{{ asset('public/backend') }}/assets/plugins/tag-it/js/tag-it.min.js"></script>
 
 
-     <script>
+    <script>
         @if(Session::has('message'))
 
         var type = "{{Session::get('alert-type','info')}}"
@@ -276,24 +275,24 @@
         @endif
 
         $(document).ready(function() {
-           
-            
-            $('.summernote').summernote({ 
+
+
+            $('.summernote').summernote({
                 placeholder: "Let's write", height: 400,
                 fontSizes: ['12', '14', '16', '18', '24', '36', '48'],
                 toolbar: [ ['fontname', ['fontname']],
                 ['style', ['bold', 'italic', 'underline', 'clear']],
                 ['fontsize', ['fontsize']],
                 ['color', ['color']],
-                ['para', ['ul', 'ol', 'paragraph']], 
-                ['height', ['height']], ['insert', 
+                ['para', ['ul', 'ol', 'paragraph']],
+                ['height', ['height']], ['insert',
                 ['picture', 'myvideo', 'link', 'table', 'hr']],
                 ['misc', ['fullscreen', 'undo', 'redo']] ],
-                disableDragAndDrop: true, shortcut: false 
-                
+                disableDragAndDrop: true, shortcut: false
+
             });
-            
-            
+
+
         });
 
 
@@ -308,8 +307,8 @@
     </script>
 
 
-     <script>
-      tinymce.init({
+    <script>
+    tinymce.init({
         selector: '#mytextarea',
         toolbar:
     "undo redo | styleselect | fontsizeselect | bold italic | alignleft aligncenter alignright alignjustify | outdent indent",
@@ -317,11 +316,11 @@
         height: 600,
         content_style: "body {font-size: 14pt;}",
         fontsize_formats:"12px 14px 18px 24px 30px 36px 48px 60px 72px 96px",
-      });
+    });
     </script>
 
 
-      <script>
+    <script>
         $(document).on('click', '#delete', function(e) {
             e.preventDefault();
             var link = $(this).attr("href");
